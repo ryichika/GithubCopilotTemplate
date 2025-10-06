@@ -1,0 +1,23 @@
+{
+  "github.copilot.chat.agent.terminal.allowlist": {
+    "cd": true,
+    "ls": true,
+    "dir": true,
+    "dotnet build": true,
+    "dotnet run": true,
+    "npm install": true,
+    "npm run build": true
+  },
+  "github.copilot.chat.agent.terminal.denylist": {
+    "rm": true,
+    "del": true,
+    "rmdir": true,
+    "mv": true,
+    "move": true,
+    "copy": true,
+    "cp": true,
+    "npm install <new-package>": true,
+    "npm install <unknown-package>": true
+  },
+  "github.copilot.chat.terminal.autoApprove": false
+}
