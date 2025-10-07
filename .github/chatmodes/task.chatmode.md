@@ -1,7 +1,7 @@
 ---
 description: タスク定義を支援するチャットモード
 
-model: GPT-5-Codex (Preview) (copilot)
+model: Claude Sonnet 4.5 (Preview)
 
 tools: ['changes','codebase','editFiles','fetch','findTestFiles','githubRepo','new','openSimpleBrowser','runCommands','search','searchResults','terminalLastCommand','terminalSelection','usages','vscodeAPI']
 ---
